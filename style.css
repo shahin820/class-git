@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #444;
+  background-color: whitesmoke;
+}
+
+.logo h1 {
+  text-align: center;
+   text-transform: uppercase;
+  margin: 20px 0px;
+  
+
+}
+.car-bg-container {
+  
+  width: 100%;
+  height: 470px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bmw-car{background-image: url(image/2022-bmw-i7.jpg);}
+.rida { background-image: url(image/rida.jpg);}
+.lamborghini { background-image: url(image/Urus_pearl.webp);}
+
+.bmw-car h1 {color:white;}
+.lamborghini h1{ color: #75BB06;}
+
+.car-bg-container h1 {
+ text-transform: uppercase;
+padding: 30px 0px 0px 80px;}
+.car-details-container h1{
+  text-transform: uppercase;
+  text-align: center;
+  margin:  30px 0px ;
+}
+.car-details-container {
+  margin: 75px;
+  text-align: center;
+  
+}
+.car-details-container p{
+  text-align: justify;
+  font-size: 20px;
+}
+.powerbuton {margin-top: 30px; margin-bottom: 50px ; text-align: center;}
+.powerbuton a{
+  background-color: tomato;
+  color:white;
+  padding:10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 800;
+  border-radius: 5px ;
+
+  
+}
+.car-details-container a:hover {
+  background-color: rgb(226, 91, 67)
+}
+.powerbuton a:actice{
+  outline: 5px solid rgb(179, 87, 71) ;
+}
+footer p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
